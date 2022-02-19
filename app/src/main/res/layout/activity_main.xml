@@ -13,70 +13,82 @@
         android:orientation="horizontal" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/bSaludar"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="395dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="318dp"
         android:background="#FFFFFF"
         android:backgroundTint="#68D8BD"
-        android:text="Buttom"
+        android:text="SALUDAR"
+        android:textColor="@color/colorTexto"
         app:icon="@android:drawable/btn_star_big_on" />
 
     <EditText
-        android:id="@+id/edittext_name"
+        android:id="@+id/elNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="3dp"
-        android:layout_marginBottom="396dp"
-        android:layout_toStartOf="@+id/button3"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="516dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="322dp"
-        android:layout_height="34dp"
-        android:layout_above="@+id/edittext_name"
+        android:layout_width="268dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/elNombre"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="48dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="43dp"
         android:text="Hola Mundo! Escriba su nombre"
-        android:layout_margin="16dp"
-        android:textColor="@android:color/holo_purple"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@android:color/holo_purple" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="165dp"
-        android:layout_height="66dp"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="124dp"
-        android:layout_marginEnd="122dp"
-        android:layout_marginBottom="186dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="31dp"
         android:text="TRABAJO DE JOSE GUILLERMO CIMA TAMAY" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="107dp"
-        android:layout_height="92dp"
-        android:layout_above="@+id/textView9"
-        android:layout_below="@+id/textView7"
+        android:layout_width="88dp"
+        android:layout_height="102dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="149dp"
-        android:layout_marginTop="94dp"
-        android:layout_marginEnd="155dp"
-        android:layout_marginBottom="27dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="257dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="491dp"
         app:srcCompat="@android:mipmap/sym_def_app_icon" />
+
+    <CheckBox
+        android:id="@+id/soyDesarrollador"
+        android:layout_width="195dp"
+        android:layout_height="85dp"
+        android:layout_above="@+id/bSaludar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="33dp"
+        android:text="Soy Desarrollador" />
 
 </RelativeLayout>
